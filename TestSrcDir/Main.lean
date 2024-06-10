@@ -1,4 +1,3 @@
-import TestSrcDir.Basic
 import Lean
 
 open Lean
@@ -14,4 +13,4 @@ def main : IO Unit := do
   let module := `TestSrcDir.Main
   let mFile ← findOLean module
 
-  IO.println s!"Hello! {hello}"
+  IO.println s!"Hello!"
